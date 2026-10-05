@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Explicitly ensure critical project assets are NEVER ignored:
+!data/
+!data/ecommerce.db
+!sql/
+!sql/*.sql
+!screenshots/
+!screenshots/*.png
+!README.md
+!interview_questions.md
+!requirements.txt
+!run_analysis.py
