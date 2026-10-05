@@ -127,3 +127,4 @@ SELECT product_id, product_name, category, price
 FROM products
 ORDER BY price DESC
 LIMIT 5 OFFSET 5;
+

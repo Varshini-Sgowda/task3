@@ -249,3 +249,4 @@ INSERT INTO order_items (order_item_id, order_id, product_id, quantity, unit_pri
 -- Order 132 (Customer 14 - Chloe - Pending)
 (55, 132, 6,  2,  29.99),
 (56, 132, 11, 1,  19.99);
+

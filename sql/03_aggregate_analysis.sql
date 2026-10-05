@@ -132,3 +132,4 @@ JOIN orders o ON c.customer_id = o.customer_id
 GROUP BY c.customer_id, c.customer_name
 HAVING COUNT(o.order_id) >= 2
 ORDER BY total_orders_placed DESC, c.customer_name ASC;
+
